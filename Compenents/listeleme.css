@@ -1,0 +1,53 @@
+@media screen and (min-width: 650px) {
+    .Listeleme {
+        font-family: 'Inter', sans-serif;
+        margin-top: 30vw;
+        margin-bottom: 4vw;
+    }
+    .cont {
+        font-family: 'Inter', sans-serif;
+        color: #1E4293;
+        padding: 0em 5vw 5vw 0vw;
+    }
+    .Listeleme img {
+        border-radius: 10px;
+        float: right;
+        width: 23%;
+        object-fit: cover;
+    }
+    .Listeleme h5 {
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1.2vw;
+    }
+    .Listeleme h3 {
+        font-size: 2vw;
+        padding-left: 2vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Listeleme {
+        font-family: 'Inter', sans-serif;
+        margin-top: 45vw;
+    }
+    .cont {
+        font-family: 'Inter', sans-serif;
+        color: #1E4293;
+        padding: 0em 5vw 5vw 0vw;
+    }
+    .Listeleme img {
+        border-radius: 10px;
+        float: right;
+        width: 37%;
+        object-fit: cover;
+    }
+    .Listeleme h5 {
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1.15vw;
+    }
+    .Listeleme h3 {
+        font-size: 2vw;
+    }
+}

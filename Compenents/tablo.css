@@ -1,0 +1,47 @@
+@media screen and (min-width: 650px) {
+    .Tablo {
+        font-family: 'Inter', sans-serif;
+        padding: 25vw 5vw 5vw 5vw;
+    }
+    .Tablo table {
+        color: #1E4293;
+        background-color: #004cff03;
+        border-color: antiquewhite;
+        border-collapse: collapse;
+        min-width: 100%;
+        min-height: 60%;
+        text-align: center;
+    }
+    .Tablo th {
+        font-size: 1.3vw;
+        border: 1px solid #DADDE4;
+    }
+    .Tablo td {
+        font-size: 1.1vw;
+        border: 1px solid #DADDE4;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Tablo {
+        font-family: 'Inter', sans-serif;
+        padding: 50vw 5vw 5vw 5vw;
+    }
+    .Tablo table {
+        color: #1E4293;
+        background-color: #004cff03;
+        border-color: antiquewhite;
+        border-collapse: collapse;
+        min-width: 100%;
+        min-height: 60%;
+        text-align: center;
+    }
+    .Tablo th {
+        font-size: 2vw;
+        border: 1px solid #DADDE4;
+    }
+    .Tablo td {
+        font-size: 2vw;
+        border: 1px solid #DADDE4;
+    }
+}

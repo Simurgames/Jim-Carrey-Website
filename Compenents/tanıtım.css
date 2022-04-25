@@ -1,0 +1,63 @@
+@media screen and (min-width: 650px) {
+    .Tanıtım {
+        font-family: 'Inter', sans-serif;
+        color: #1E4293;
+        padding: 5vw;
+    }
+    .Tanıtım h2 {
+        font-weight: 700;
+        font-size: 1.8vw;
+    }
+    .Tanıtım h3 {
+        font-weight: 500;
+        font-size: 1.5vw;
+    }
+    .Tanıtım h5 {
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1.2vw;
+    }
+    .Tanıtım img {
+        border-radius: 10px;
+        float: left;
+        width: 20%;
+        object-fit: cover;
+    }
+    .card {
+        float: left;
+        width: 65vw;
+        padding-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .Tanıtım {
+        font-family: 'Inter', sans-serif;
+        color: #1E4293;
+        padding: 7vw;
+    }
+    .Tanıtım h2 {
+        font-weight: 700;
+        font-size: 2vw;
+    }
+    .Tanıtım h3 {
+        font-weight: 500;
+        font-size: 1.8vw;
+    }
+    .Tanıtım h5 {
+        font-weight: 300;
+        text-align: justify;
+        font-size: 1.5vw;
+    }
+    .Tanıtım img {
+        border-radius: 10px;
+        float: left;
+        width: 35%;
+        object-fit: cover;
+    }
+    .card {
+        float: left;
+        width: 40vw;
+        padding-left: 7vw;
+    }
+}
